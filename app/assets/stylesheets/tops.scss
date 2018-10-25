@@ -1,0 +1,46 @@
+.header_top {
+  width: 100%;
+  background-color: #ff0099;
+  height: 54px;
+}
+
+.header_top ul {
+  margin: 0 auto;
+  list-style: none;
+}
+
+.header_top ul a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.header_top li {
+  float: left;
+  width: auto;
+}
+
+.header_top ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+footer {
+  width: 100%;
+  background-color:#ff0099;
+  padding: 20px 0 10px 0;
+  color: white;
+  margin-top: 500px;
+  padding-bottom: 10px;
+  font-size: 12px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}

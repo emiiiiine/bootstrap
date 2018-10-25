@@ -1,0 +1,42 @@
+.top_container {
+  position: relative;
+}
+
+.top_container img {
+  width: 100%;
+}
+
+.top_content {
+  position: absolute;
+  text-align: center;
+  top: 5%;
+  left: 2%;
+}
+
+.top_title {
+  font-size: calc(100% + 10vw);
+  font-weight: bold;
+  font-family: impact;
+}
+
+.top_menu {
+  font-size: calc(30% + 2vw);
+  font-family: impact;
+}
+
+.top_menu a {
+  color: #333333;
+  text-align: center;
+  padding: 0.5vw;
+  display: block;
+  font-weight: bold;
+}
+
+.top_explanation {
+  position: absolute;
+  bottom: 10%;
+  right: 3%;
+  font-size: calc(30% + 1.5vw);
+  width: 50%;
+  line-height: 120%;
+}

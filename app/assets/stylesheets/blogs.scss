@@ -1,0 +1,23 @@
+h2, h3 {
+  border-style: dotted;
+  border-width: 1px;
+}
+
+body {
+  background-color: #d0b0ff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: left;
+}
+
+div.blog-panel {
+  height: 200px;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.container {
+  margin-bottom: 100px;
+}
