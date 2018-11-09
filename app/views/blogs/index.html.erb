@@ -11,7 +11,9 @@
         <h2><%= blog.title %></h2>
         <p><%= blog.content %></p>
         <p><%= blog.created_at %></p>
-        <p><%= blog.user.name %></p>
+        <% if blog.user.name.present? %>
+          <p><%= blog.user.name %></p>
+        <% end %>
         <div class="blog-links">
           <%= link_to '詳細表示', blog, class: 'btn btn-default' %>
           <% if logged_in? && current_user.id == blog.user_id %>
