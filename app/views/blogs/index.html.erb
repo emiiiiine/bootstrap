@@ -14,7 +14,7 @@
         <p><%= blog.user.name %></p>
         <div class="blog-links">
           <%= link_to '詳細表示', blog, class: 'btn btn-default' %>
-          <% if current_user.id == blog.user_id %>
+          <% if logged_in? && current_user.id == blog.user_id %>
             <%= link_to '編集', edit_blog_path(blog), class: 'btn btn-info' %> |
             <%= link_to '削除', blog, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger' %>
           <% end %>
