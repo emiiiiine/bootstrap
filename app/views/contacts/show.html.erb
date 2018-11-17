@@ -1,0 +1,22 @@
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Content</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td><%= @contact.name %></td>
+      <td><%= @contact.email %></td>
+      <td><%= @contact.content %></td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'Edit', edit_contact_path(@contact) %> |
+<%= link_to 'Back', contacts_path %>
